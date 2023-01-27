@@ -2,9 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-.blue-font {
-  color: #2196f3;
-}
+
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -25,12 +23,6 @@ h3 {
   font-size: 18px;
   line-height: 36px;
 }
-.h3{
-font-style: Bold;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-}
 h4 {
   font-size: 14px;
   font-weight: 700;
@@ -43,13 +35,7 @@ p {
   line-height: 30px;
   color: #757575;
 }
-.none {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 100%;
-  margin-left: 215px;
-}
+
 .another-none {
   font-size: 14px;
   font-weight: 500;
@@ -72,10 +58,12 @@ a {
   text-decoration: none;
   color: #212121;
   font-size: 14px;
+  
 }
 link {
   text-decoration: none;
   color: aliceblue;
+  
 }
 a:hover,
 a:focus {
@@ -115,52 +103,52 @@ button {
   margin: 0 auto;
   padding: 0 auto;
 }
-.container-class{
+.container-class {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
-  padding: 32px 0;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .section {
   padding: 94px 0;
 }
-/*header {
-  flex-direction:row;
-  justify-content: center;
-}*/
+header {
+  display: flex;
+  flex-direction: row;
+}
 .logo {
- justify-content: flex-start;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-/*.logo-position {
+.logo-position {
   padding-top: 24px;
-  justify-content: flex-start;
-}*/
-.menu1{
-  list-style: none;
-  justify-content: center;
-  display:flex
+  padding-bottom: 25px;
 }
 .menu-position {
-  justify-content: center;
+  padding: 32px;
 }
 .header-adress {
-  justify-content: flex-end;
+  padding: 32px 0;
+  display: flex;
+}
+.header-adress > a:last-child {
+  margin-left: 50px;
 }
 .page-header {
   border-bottom: 1px solid #ececec;
 }
-.img{
-  max-width: 1600px;
-  background-size: contain;
-  background: linear-gradient(rgba(47, 48, 58, 0.4));
+.menu1 {
+  list-style: none;
+  display: flex;
 }
-.background-svg{
-  width:270px;
-  height: 120px;
-  background-color: #F5F4FA;
+.menu1 > .item:not(:last-child) {
+  margin-right: 32px;
 }
 .menu {
   display: flex;
@@ -169,8 +157,15 @@ button {
   padding-top: 94px;
   padding-bottom: 56px;
 }
+
 .menu > .item:not(:last-child) {
   margin-right: 8px;
+}
+.img {
+  max-width: 1600px;
+  height: 600px;
+  background-size: cover;
+  background:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/index-picture/Img.png);
 }
 .about-us {
   display: flex;
@@ -204,6 +199,7 @@ button {
 }
 .ower-team {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .card {
@@ -212,41 +208,44 @@ button {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.firm{
-  display:flex;
-  
-}
+
 footer {
   background-color: #2f303a;
   padding: 60px 0;
   height: 252px;
 }
+.blue-font {
+  color: #2196f3;
+}
 .footer-adress {
   text-decoration: none;
   margin: 0 auto;
-  list-style: none;
+  color: #ffffff;
+  list-style-type:none;
+}
+.footer-adress a {
+  color: #ffffff;
 }
 .adress {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #ffffff;
+  text-decoration: none;
 }
+
 .footer-color li {
   display: block;
+}
+.footer-adress :hover{
+  color: #2196f3;
+}
+.logo-color {
   color: #ffffff;
-  margin-left: 215px;
 }
 .footer-color a {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-color address {
-  color: #ffffff;
+.icons-footer{
+  display: flex;
 }
-.img {
-  background-color: #2f303a;
-  text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)) url('./../goit-markup-hw-04/images/index-picture/Img.png');
-  max-width: 1600px;
-  margin: 0 auto;
-}
+
