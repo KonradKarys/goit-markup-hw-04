@@ -25,6 +25,12 @@ h3 {
   font-size: 18px;
   line-height: 36px;
 }
+.h3{
+font-style: Bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
 h4 {
   font-size: 14px;
   font-weight: 700;
@@ -111,50 +117,51 @@ button {
 }
 .container-class{
   display: flex;
-
   padding: 32px 0;
-
 }
 .section {
   padding: 94px 0;
 }
 /*header {
-
   flex-direction:row;
   justify-content: center;
 }*/
 .logo {
  justify-content: flex-start;
   font-family: Raleway;
- 
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
 /*.logo-position {
- 
   padding-top: 24px;
   justify-content: flex-start;
 }*/
 .menu1{
   list-style: none;
   justify-content: center;
+  display:flex
 }
 .menu-position {
- 
-
   justify-content: center;
 }
-
 .header-adress {
   justify-content: flex-end;
 }
 .page-header {
-  
   border-bottom: 1px solid #ececec;
 }
-
+.img{
+  max-width: 1600px;
+  background-size: contain;
+  background: linear-gradient(rgba(47, 48, 58, 0.4));
+}
+.background-svg{
+  width:270px;
+  height: 120px;
+  background-color: #F5F4FA;
+}
 .menu {
   display: flex;
   list-style: none;
@@ -162,7 +169,6 @@ button {
   padding-top: 94px;
   padding-bottom: 56px;
 }
-
 .menu > .item:not(:last-child) {
   margin-right: 8px;
 }
@@ -206,7 +212,10 @@ button {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-
+.firm{
+  display:flex;
+  
+}
 footer {
   background-color: #2f303a;
   padding: 60px 0;
@@ -236,4 +245,8 @@ footer {
 }
 .img {
   background-color: #2f303a;
+  text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)) url('./../goit-markup-hw-04/images/index-picture/Img.png');
+  max-width: 1600px;
+  margin: 0 auto;
 }
