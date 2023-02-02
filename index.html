@@ -41,22 +41,22 @@
           </nav>
         </div>
         <div class="header-adress">
-          <a
-            ><div>
-              <span
-                ><svg width="16px" height="12px">
+          <div><ul>
+            <li>
+              <svg class="clients-item" width="16px" height="12px">
                   <use href="./images/icons.svg#icon-envelope"></use></svg><a href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a></span>
-            </div></a>
-          <a
-            ><div>
-              <span
-                ><svg width="10px" height="16px">
+                  >info@devstudio.com</a>
+            </a></li>
+         <li>
+            <a
+            >
+             
+                <svg class="clients-item" width="10px" height="16px">
                   <use href="./images/icons.svg#icon-smartphone"></use></svg>
-                <a href="tel:48111111111">+48 111 111 111</a></span>
+                <a href="tel:48111111111">+48 111 111 111</a></a></li>
               
-            </div></a
-          >
+            </ul> 
+          
         </div>
       </div>
     </header>
@@ -64,7 +64,7 @@
     <main>
       <!--HERO-->
 
-      <section class="img section">
+      <section class="img">
         <div class="container">
           <h1>EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
           <button class="button-place" type="button">Zamów usługe</button>
@@ -76,8 +76,8 @@
           <ul class="about-us">
             <li>
               <div class="background-svg">
-                <svg width="70px" height="70px">
-                  <use href="./images/icons.svg#icon-anthena"></use>
+                <svg class="about-us-svg" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
               <h4>LOREM IPSUM</h4>
@@ -89,7 +89,7 @@
             <li>
               <div class="background-svg">
                 <svg width="70px" height="70px">
-                  <use href="./images/icons.svg#icon-clock"></use>
+                  <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
               <h4>LOREM IPSUM</h4>
@@ -101,7 +101,7 @@
             <li>
               <div class="background-svg">
                 <svg width="70px" height="70px">
-                  <use href="./images/icons.svg#icon-diagram"></use>
+                  <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
               <h4>LOREM IPSUM</h4>
@@ -113,7 +113,7 @@
             <li>
               <div class="background-svg">
                 <svg width="70px" height="70px">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
               <h4>LOREM IPSUM</h4>
@@ -164,7 +164,7 @@
         <div class="container">
           <h2>Nasz zespół</h2>
           <ul class="card-index">
-            <li>
+            <li class="tile">
               <img
                 src="images/index-picture/Franek.jpg"
                 alt="John_Doe3"
@@ -173,7 +173,7 @@
               />
               <h3>John Doe</h3>
               <p>Product Designer</p>
-              <svg width="20px" height="20px">
+              <div class="team-svg"><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
               <svg width="20px" height="20px">
@@ -184,9 +184,9 @@
               </svg>
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
+              </svg></div>
             </li>
-            <li>
+            <li class="tile">
               <img
                 src="images/index-picture/Iwona.jpg"
                 alt="John_Doe2"
@@ -195,7 +195,7 @@
               />
               <h3>John Doe</h3>
               <p>Frontend Developer</p>
-              <svg width="20px" height="20px">
+              <div class="team-svg"><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
               <svg width="20px" height="20px">
@@ -206,9 +206,9 @@
               </svg>
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
+              </svg></div>
             </li>
-            <li>
+            <li class="tile">
               <img
                 src="images/index-picture/Janek.jpg"
                 alt="John_Doe3"
@@ -217,7 +217,7 @@
               />
               <h3>John Doe</h3>
               <p>Marketing</p>
-              <svg width="20px" height="20px">
+              <div class="team-svg"><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
               <svg width="20px" height="20px">
@@ -228,9 +228,9 @@
               </svg>
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
+              </svg></div>
             </li>
-            <li>
+            <li class="tile">
               <img
                 src="images/index-picture/Stefan.jpg"
                 alt="John_Doe4"
@@ -239,18 +239,18 @@
               />
               <h3>John Doe</h3>
               <p>UI Designer</p>
-              <svg width="20px" height="20px">
+              <ul class="team-svg"><li  class="team-svg-icon"><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-              <svg width="20px" height="20px">
+              </svg></li>
+              <li><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg>
-              <svg width="20px" height="20px">
+              </svg></li>
+              <li><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg>
-              <svg width="20px" height="20px">
+              </svg></li>
+              <li><svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
+              </svg></li></ul>
             </li>
           </ul>
         </div>
@@ -258,45 +258,51 @@
       <!--Nasi Klienci-->
       <section>
         <div class="container">
-          <h3 class="h3">Nasi Klienci</h3>
-          <div class="firm">
-            <div>
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-logo"></use>
-              </svg>
+          <h2 class="h2">Nasi Klienci</h2>
+          <ul  class="us-clients">
+            <div  class="clients">
+              <li>
+              <svg  class="item-client" width="106px" height="60px">
+                <use href="./images/icons.svg#icon-Logo"></use>
+              </svg></li>
             </div>
-            <div>
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-logo-1"></use>
-              </svg>
+            <div  class="clients">
+              <li>
+              <svg  class="item-client" width="106px" height="60px">
+                <use href="./images/icons.svg#icon-Logo-1"></use>
+              </svg></li>
             </div>
-            <div>
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-logo-2"></use>
-              </svg>
+            <div  class="clients">
+              <li>
+              <svg  class="item-client" width="106px" height="60px">
+                <use href="./images/icons.svg#icon-Logo-2"></use>
+              </svg></li>
             </div>
-            <div>
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-logo-3"></use>
-              </svg>
+            <div  class="clients">
+              <li>
+              <svg  class="item-client" width="106px" height="60px">
+                <use href="./images/icons.svg#icon-Logo-3"></use>
+              </svg></li>
             </div>
-            <div>
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-logo-4"></use>
-              </svg>
+            <div  class="clients">
+              <li>
+              <svg  class="item-client"width="106px" height="60px">
+                <use href="./images/icons.svg#icon-Logo-4"></use>
+              </svg></li>
             </div>
-            <div>
-              <svg width="20px" height="20px">
-                <use href="./images/icons.svg#icon-logo-5"></use>
-              </svg>
+            <div  class="clients">
+              <li>
+              <svg  class="item-client" width="106px" height="60px">
+                <use href="./images/icons.svg#icon-Logo-5"></use>
+              </svg></li>
             </div>
-          </div>
+          </ul>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="container">
+      <div class="container ">
         <a class="logo logo-color" href="#"
           ><span class="blue-font">Web</span>Studio</a
         >
@@ -320,29 +326,31 @@
             <li><a href="tel:48111111111">+48 111 111 111</a></li>
           </ul>
         </div>
-
+<div  class="join-to-us" >
         <p>DOŁĄCZ DO NAS</p>
-        <div>
-          <svg width="20px" height="20px">
+      
+          <ul >
+          <li><a class="item-svg-footer" ><svg  width="20px" height="20px">
             <use href="./images/icons.svg#icon-instagram-2"></use>
-          </svg>
-        </div>
-        <div>
-          <svg width="20px" height="20px">
+          </svg></a></li>
+       
+        
+          <li ><a  class="item-svg-footer" ><svg  width="20px" height="20px">
             <use href="./images/icons.svg#icon-twitter-1"></use>
-          </svg>
-        </div>
-        <div>
-          <svg width="20px" height="20px">
+          </svg></a></li>
+       
+        
+          <li ><a  class="item-svg-footer" ><svg  width="20px" height="20px">
             <use href="./images/icons.svg#icon-facebook-1"></use>
-          </svg>
-        </div>
-        <div>
-          <svg width="20px" height="20px">
+         </svg></a></li>
+        
+          <li ><a class="item-svg-footer" ><svg  width="20px" height="20px">
             <use href="./images/icons.svg#icon-linkedin-1"></use>
-          </svg>
+          </svg></a></li></ul>
+       
         </div>
       </div>
+      
     </footer>
   </body>
 </html>
