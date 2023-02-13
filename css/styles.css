@@ -132,6 +132,13 @@ button {
   margin: 0 auto;
   line-height: 100%;
 }
+.container-footer {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 100%;
+}
 
 .container-class {
   max-width: 1200px;
@@ -446,7 +453,6 @@ footer {
   display: inline-block;
   width: 206px;
   height: 80px;
-  margin-bottom:200px;
 }
 .blue-font {
   color: #2196f3;
