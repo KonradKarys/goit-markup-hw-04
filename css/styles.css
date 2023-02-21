@@ -386,6 +386,7 @@ header-contact-link {
 .ower-team {
   background-color: #f5f4fa;
   max-width: 1600px;
+  width: 100%;
   
 }
 
@@ -465,6 +466,7 @@ footer {
   padding: 60px 0;
   height: 252px;
   max-width: 1600px;
+  width: 100%;
 }
 .footer-block {
   display: inline-block;
