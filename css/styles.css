@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  max-width: 1600px;
+  
   margin: 0 auto;
 }
 
@@ -153,7 +153,7 @@ button {
   padding-bottom: 94px;
 }
 section {
-  max-width: 1600px;
+ 
   margin: 0 auto;
 }
 .section1{
@@ -465,7 +465,7 @@ footer {
   background-color: #2f303a;
   padding: 60px 0;
   height: 252px;
-  max-width: 1600px;
+ 
   width: 100%;
 }
 .footer-block {
